@@ -8,12 +8,12 @@
     height: 400px;
     width: 350px;
     margin-right:20px;
-    background-color: #DFD3C3;
+    background-color: #80AF81;
     margin-top: 20px;
     margin-left: 20px;
-    border: 5px solid #D0B8A8;
+    border: 5px solid #508D4E;
     border-radius: 20px;
-    box-shadow:10px 10px rgba(0, 0, 0, 0.186);
+    box-shadow:10px 10px #508d4e5c;
 }
 .img1{
     height:250px;
@@ -32,15 +32,23 @@
 button{
     margin-top: 10px ;
     margin-left: 75px;
-    background-color: #8D493A;
-    color:#F8EDE3;
+    background-color: #1A5319;
+    color: aliceblue;
     height: 30px;
     width: 100px;
     border-radius: 5px;
     border: transparent;
 }
+button .icon{
+    height:auto;
+    width: auto;
+    display: inline-block;
+    z-index: 3;
+    color:white;
+}
 button:hover{
     cursor: pointer;
+    background-color: #0e270d;
 }
 p i{
     font-family: 'Courier New', Courier, monospace;
